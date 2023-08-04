@@ -40,4 +40,13 @@ public class TestCraftNavigation {
         Position finalPosition = new Position(1,1,0,Direction.Up);
         assertEquals(finalPosition,craftNavigation.eastNavigation('u',new Position(1,1,0,Direction.E)));
     }
+
+    @Test
+    public void testWestNavigation(){
+
+//        4th testcase
+        CraftNavigation craftNavigation = new CraftNavigation();
+        Position finalPosition = new Position(1,2,0,Direction.E);
+        assertEquals(finalPosition,craftNavigation.westNavigation('f',new Position(2,2,0,Direction.E)));
+    }
 }

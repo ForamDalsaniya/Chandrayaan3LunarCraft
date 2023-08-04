@@ -81,4 +81,8 @@ public class CraftNavigation {
         }
         return position;
     }
+
+    public Position westNavigation(char command, Position position){
+        return null;
+    }
 }
