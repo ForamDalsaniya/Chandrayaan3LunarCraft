@@ -133,6 +133,28 @@ public class CraftNavigation {
         return position;
     }
     public Position downNavigation(char command, Position position){
-        return null;
+        switch (command){
+            case 'l':
+                position.setDirection(Direction.E);
+                break;
+            case 'r':
+                position.setDirection(Direction.W);
+                break;
+            case 'f':
+                position.setZ(position.getZ()-1);
+                break;
+            case 'b':
+                position.setZ(position.getZ()+1);
+                break;
+            case 'u':
+                position.setDirection(Direction.Up);
+                break;
+            case 'd':
+                position.setDirection(Direction.Down);
+                break;
+            default:
+                System.out.println("Invalid Direction Specified");
+        }
+        return position;
     }
 }
