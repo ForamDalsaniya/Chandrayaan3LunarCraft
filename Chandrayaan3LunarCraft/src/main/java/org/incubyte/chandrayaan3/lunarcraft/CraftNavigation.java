@@ -55,4 +55,8 @@ public class CraftNavigation {
         }
         return position;
     }
+
+    public Position eastNavigation(char command, Position position){
+        return null;
+    }
 }
