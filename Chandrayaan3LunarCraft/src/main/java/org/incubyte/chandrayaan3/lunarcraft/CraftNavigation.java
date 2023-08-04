@@ -4,5 +4,9 @@ public class CraftNavigation {
     public CraftNavigation(){
 
     }
+    public Position northNavigation(char command, Position position){
+
+        return null;
+    }
 
 }
