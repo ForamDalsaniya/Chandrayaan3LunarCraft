@@ -38,6 +38,6 @@ public class TestCraftNavigation {
 //        3rd testcase
         CraftNavigation craftNavigation = new CraftNavigation();
         Position finalPosition = new Position(1,1,0,Direction.Up);
-        assertEquals(finalPosition,craftNavigation.southNavigation('u',new Position(1,1,0,Direction.E)));
+        assertEquals(finalPosition,craftNavigation.eastNavigation('u',new Position(1,1,0,Direction.E)));
     }
 }
