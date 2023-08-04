@@ -31,6 +31,28 @@ public class CraftNavigation {
     }
 
     public Position southNavigation(char command, Position position){
-        return null;
+        switch (command){
+            case 'l':
+                position.setDirection(Direction.E);
+                break;
+            case 'r':
+                position.setDirection(Direction.W);
+                break;
+            case 'f':
+                position.setY(position.getY()-1);
+                break;
+            case 'b':
+                position.setY(position.getY()+1);
+                break;
+            case 'u':
+                position.setDirection(Direction.Up);
+                break;
+            case 'd':
+                position.setDirection(Direction.Down);
+                break;
+            default:
+                System.out.println("Invalid Direction Specified");
+        }
+        return position;
     }
 }
