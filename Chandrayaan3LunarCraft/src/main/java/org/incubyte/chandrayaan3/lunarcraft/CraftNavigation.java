@@ -29,5 +29,8 @@ public class CraftNavigation {
         }
         return position;
     }
-    
+
+    public Position southNavigation(char command, Position position){
+        return null;
+    }
 }

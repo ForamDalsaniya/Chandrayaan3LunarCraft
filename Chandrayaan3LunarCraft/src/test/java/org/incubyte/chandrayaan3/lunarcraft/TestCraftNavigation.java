@@ -22,4 +22,13 @@ public class TestCraftNavigation {
 
 
     }
+
+    @Test
+    public void testSouthNavigation(){
+
+//        2nd testcase
+        CraftNavigation craftNavigation = new CraftNavigation();
+        Position finalPosition = new Position(1,1,0,Direction.E);
+        assertEquals(finalPosition,craftNavigation.southNavigation('l',new Position(1,1,0,Direction.S)));
+    }
 }
