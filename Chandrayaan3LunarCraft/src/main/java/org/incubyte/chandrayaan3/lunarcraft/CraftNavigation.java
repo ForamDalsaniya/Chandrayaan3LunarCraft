@@ -106,4 +106,8 @@ public class CraftNavigation {
         }
         return position;
     }
+
+    public Position upNavigation(char command, Position position){
+        return null;
+    }
 }
