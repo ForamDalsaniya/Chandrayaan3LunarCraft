@@ -58,4 +58,13 @@ public class TestCraftNavigation {
         Position finalPosition = new Position(1,0,-1,Direction.Up);
         assertEquals(finalPosition,craftNavigation.upNavigation('b',new Position(1,0,0,Direction.Up)));
     }
+
+    @Test
+    public void testDownNavigation(){
+
+//        6th testcase
+        CraftNavigation craftNavigation = new CraftNavigation();
+        Position finalPosition = new Position(1,2,-1,Direction.Down);
+        assertEquals(finalPosition,craftNavigation.downNavigation('f',new Position(1,2,0,Direction.Down)));
+    }
 }

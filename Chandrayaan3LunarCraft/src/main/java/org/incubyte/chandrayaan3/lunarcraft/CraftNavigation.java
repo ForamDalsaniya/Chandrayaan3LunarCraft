@@ -132,4 +132,7 @@ public class CraftNavigation {
         }
         return position;
     }
+    public Position downNavigation(char command, Position position){
+        return null;
+    }
 }
