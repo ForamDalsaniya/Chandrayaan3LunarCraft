@@ -51,14 +51,10 @@ By following these steps, you should have the project set up on your local envir
 ## Contact Information
 
 ### Support
-- If you have any questions, feedback, or issues related to the project, please don't hesitate to get in touch with us. We welcome any contributions or suggestions that can help improve the project.
-- For general inquiries or support requests, you can reach out to our team at the following email address: forampdalsaniya@gmail.com.
+- If you have any questions, feedback, or issues related to the project, please don't hesitate to contact me. Any contributions or suggestions that can help improve the project are welcomed.
+- For general inquiries or support requests, you can reach out on the following email address: forampdalsaniya@gmail.com.
 
 ### Feature request
-- If you have an idea for a new feature or enhancement that could be valuable to the project, we'd love to hear it! Please create a new feature request in the project's issue tracker on GitHub or send an email to forampdalsaniya@gmail.com.
+- If you have an idea for a new feature or enhancement that could be valuable to the project, I would love to hear it! Please create a new feature request in the project's issue tracker on GitHub or send an email to forampdalsaniya@gmail.com.
 
-### Contribution
-- We welcome contributions from the community to make this project better.
-
-
-Thank you for using our project, and we look forward to hearing from you!
+Thank you😊
